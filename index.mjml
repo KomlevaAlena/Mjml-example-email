@@ -5,12 +5,23 @@
       <mj-title />
       <mj-preview>Apple letter</mj-preview>
       <mj-style>
+        h1 {
+          all: inherit;
+        }
       </mj-style>
   </mj-head>
   <mj-body width="640px">
-    <mj-section>
+    <mj-section background-color="#313131" padding="0">
       <mj-column>
-        <<mj-image src="https://i.ibb.co/8L56m4jS/Apple-mac.png" />
+        <mj-image src="https://i.ibb.co/8L56m4jS/Apple-mac.png" width="24px" align="center" padding="24px"/>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#141415" padding="0">
+      <mj-column>
+        <mj-text padding="50px 30px 0px 30px" color="#ffffff" font-size="40px" line-height="49px" font-weight="bold" font-family="Verdana" align="center">
+          <h1 css-class="title" style="font-size: inherit;">Our most stunning take on post-production.</h1>
+        </mj-text>
+        <mj-button css-class="link" href="https://ya.ru" font-family="Verdana" color="#51acff" font-size="15px"font-weight="bold" line-height="18px" align="center" background-color="transparent">Buy now</mj-button>
       </mj-column>
     </mj-section>
   </mj-body>
